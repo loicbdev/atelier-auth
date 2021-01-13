@@ -11,6 +11,9 @@ function App() {
       <div className="app">
         <nav className="navbar navbar-expand navbar-dark bg-dark">
           <div className="navbar-nav mr-auto">
+            <Link to="/" className="navbar-brand">
+              My Web App
+            </Link>
             <li className="nav-item">
               <Link to="/login" className="nav-link">
                 Login
